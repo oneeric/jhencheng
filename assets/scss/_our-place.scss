@@ -1,0 +1,156 @@
+
+
+
+/*===========================
+    8.OUR PLACE css 
+===========================*/
+
+
+
+
+
+.our-place-area{
+	background: $heading-color;
+	position: relative;
+	&::before{
+		position: absolute;
+		content: '';
+		left: 0;
+		top: 0;
+		height: 100%;
+		width: 50%;
+		background-image: url(../images/place-bg.webp);
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		@media #{$laptop} {
+			width: 30%;
+		}
+		@media #{$lg} {
+			width: 0;
+		}
+		@media #{$md} {
+			width: 0;
+		}
+		@media #{$xs} {
+			width: 0;
+		}
+	}
+	& .our-place-item{
+		& .our-place-content{
+			width: 960px;
+			background: $heading-color;
+			padding: 115px 125px;
+			@media #{$md} {
+				padding: 115px 40px;
+				width: 755px;
+
+			}
+			@media #{$xs} {
+				padding: 115px 10px;
+				width: 310px;
+			}
+			@media #{$sm} {
+				padding: 115px 20px;
+				width: 565px;
+			}
+			& .plans-item-slide{
+				& .slick-center{
+					& .our-place-item{
+						opacity: 1;
+						border-color: $accent-color;
+						position: relative;
+						margin-bottom: 20px;
+						&::before{
+							position: absolute;
+							content: '';
+							left: 50%;
+							bottom: -17px;
+							transform: translateX(-50%) rotate(45deg);
+
+							height: 30px;
+							width: 30px;
+							border: 2px solid $accent-color;
+							background: $heading-color;
+							border-left: 0;
+							border-top: 0;
+
+						}
+					}
+				}
+			}
+			& > span{
+				color: $white;
+				font-weight: 700;
+				position: relative;
+				padding-left: 70px;
+				&::before{
+					position: absolute;
+					content: '';
+					left: 33px;
+					top: 50%;
+					transform: translateY(-50%);
+					height: 5px;
+					width: 17px;
+					background: $white;
+					border-radius: 30px;
+				}
+				&::after{
+					position: absolute;
+					content: '';
+					left: 0px;
+					top: 50%;
+					transform: translateY(-50%);
+					height: 5px;
+					width: 28px;
+					background: $white;
+					border-radius: 30px;
+				}
+			}
+			& .title{
+				color: $white;
+				font-size: 60px;
+				padding-bottom: 52px;
+				@media #{$xs} {
+					font-size: 38px;
+				}
+			}
+			& .our-place-text{
+				padding-top: 40px;
+				& p{
+					color: rgba(255, 255, 255, 0.7);
+					line-height: 28px;
+					padding: 0 40px 0;
+					@media #{$xs} {
+						padding: 0;
+					}
+					@media #{$sm} {
+						padding: 0 40px 0;
+					}
+				}
+			}
+
+		}
+		& .our-place-item{
+			opacity: 0.6;
+			@include transition(0.3s);
+			border: 2px solid $accent-color;
+			& i{
+				color: $accent-color;
+				font-size: 60px;
+				padding-top: 48px;
+			}
+			& span{
+				font-size: 14px;
+				color: $white;
+				text-transform: uppercase;
+				letter-spacing: 2px;
+				font-weight: 700;
+				padding-bottom: 50px;
+				padding-top: 14px;
+			}
+		}
+	}
+}
+
+

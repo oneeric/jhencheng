@@ -1,0 +1,191 @@
+
+
+
+/*===========================
+    13.BECOME MEMBER css 
+===========================*/
+
+
+.become-member-area{
+	& .become-member-items-1{
+		height: 515px;
+		position: relative;
+		z-index: 10;
+		justify-content: center;
+		&::before{
+			position: absolute;
+			content: '';
+			left: 0;
+			top: 0;
+			height: 100%;
+			width: 100%;
+			background-image: -webkit-linear-gradient(bottom, rgba(0,54,164,.9) 0%, rgba(0,126,255,.9) 100%);
+			background-image: -o-linear-gradient(bottom, rgba(0,54,164,.9) 0%, rgba(0,126,255,.9) 100%);
+			background-image: linear-gradient(to top, rgba(0,54,164,.9) 0%, rgba(0,126,255,.9) 100%);
+			z-index: -1;
+		
+		}
+		& .become-member-content{
+			& span{
+				color: $white;
+				font-weight: 700;
+				padding-bottom: 20px;
+			}
+			& .title{
+				color: $white;
+				font-size: 50px;
+				line-height: 60px;
+				padding-bottom: 35px;
+				@media #{$laptop} {
+					font-size: 46px;
+					line-height: 56px;
+				}
+				@media #{$lg} {
+					font-size: 36px;
+					line-height: 46px;
+				}
+				@media #{$xs} {
+					font-size: 24px;
+					line-height: 30px;
+				}
+				@media #{$sm} {
+					font-size: 42px;
+					line-height: 48px;
+				}
+
+			}
+			& ul{
+				& li{
+					display: inline-block;
+					margin: 0 13px;
+					& a{
+						&.main-btn{
+							background: $heading-color;
+							border:2px solid  $heading-color;
+							&:hover{
+								background-color: transparent;
+								border-color: rgb(53, 136, 241);
+							}
+							&.main-btn-2{
+								background-color: transparent;
+								border-color: rgb(53, 136, 241);
+								@media #{$xs} {
+									margin-top: 20px;
+								}
+								@media #{$sm} {
+									margin-top: 0px;
+								}
+								&:hover{
+									background: $heading-color;
+									border:2px solid  $heading-color;
+
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	& .become-member-items-2{
+		height: 515px;
+		position: relative;
+		z-index: 10;
+		&::before{
+			position: absolute;
+			content: '';
+			left: 0;
+			top: 0;
+			height: 100%;
+			width: 100%;
+			background-color: rgba(0, 28, 72,.9);
+			z-index: -1;
+		}
+		& .become-member-content{
+			& span{
+				color: $white;
+				font-weight: 700;
+				padding-bottom: 20px;
+			}
+			& .title{
+				font-size: 50px;
+				color: $white;
+				padding-bottom: 25px;
+				@media #{$lg} {
+					font-size: 40px;
+				}
+				@media #{$xs} {
+					font-size: 24px;
+				}
+				@media #{$sm} {
+					font-size: 50px;
+				}
+			}
+			& .input-box{
+				padding-bottom: 20px;
+				& input{
+					width: 530px;
+					background-color: transparent;
+					border-radius: 50px;
+					border: 4px solid #193f7b;
+					line-height: 80px;
+					padding-left: 36px;
+					color: $white;
+					@media #{$lg} {
+						width: 100%;
+					}
+					@media #{$md} {
+						width: 100%;
+					}
+					@media #{$xs} {
+						width: 100%;
+						line-height: 60px;
+					}
+
+					&::placeholder{
+						opacity: 1;
+					}
+				}
+			}
+		}
+	}
+	&.become-member-3-area{
+		& .become-member-items-1{
+			&::before{
+				background: rgba(255, 93, 34, 0.9);
+			}
+			& .become-member-content{
+				& ul{
+					& li{
+						& .main-btn{
+							&:hover{
+								border-color: $white;
+								color: $white;
+							}
+							&.main-btn-2{
+								border-color: $white;
+								color: $white;
+							}
+						}
+					}
+				}
+			}
+		}
+		& .become-member-items-2{
+			& .become-member-content{
+				& a{
+					background: $theme-color;
+					border: 2px solid $theme-color;
+					&:hover{
+						background-color: transparent;
+						color: $white;
+						border-color: $white;
+					}
+				}
+			}
+		}
+	}
+}
+
+
+

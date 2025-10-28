@@ -1,0 +1,86 @@
+
+
+
+/*===========================
+    8.PRICING css 
+===========================*/
+
+
+
+.pricing-area{
+	padding-top: 114px;
+	padding-bottom: 120px;
+	background: $grey;
+	& .section-title{
+		padding-bottom: 73px;
+	}
+	& .pricing-item{
+		padding-bottom: 70px;
+		padding-top: 65px;
+		padding: 65px 60px 70px;
+		& > span{
+			color: $heading-color;
+			font-weight: 700;
+			padding-bottom: 25px;
+		}
+		& .title{
+			font-size: 80px;
+			& span{
+				font-size: 16px;
+			}
+		}
+		& p{
+			font-size: 14px;
+			font-weight: 700;
+			color: $theme-color;
+			letter-spacing: 2px;
+			text-transform: uppercase;
+			margin-top: -13px;
+			margin-bottom: 14px;
+		}
+		& ul{
+			& li{
+				line-height: 65px;
+				border-bottom: 1px solid $border-color;
+				&:last-child{
+					border-bottom: 0;
+				}
+			}
+		}
+		& a{
+			margin-top: 24px;
+		}
+		&.center{
+			position: relative;
+			&::before{
+				position: absolute;
+				content: 'Best Value With Get 50% Off';
+				left: 0;
+				top:-40px;
+				height: 40px;
+				width: 100%;
+				background: $theme-color;
+				line-height: 40px;
+				color: $white;
+				font-size: 14px;
+				font-weight: 700;
+
+			}
+		}
+		&.item{
+			@media #{$md} {
+				margin-top: 75px;
+			}
+			@media #{$xs} {
+				margin-top: 75px;
+			}
+		}
+	}
+    &.pricing-page{
+        padding-top: 128px;
+        background-color: transparent;
+        & .pricing-item{
+            border: 2px solid #eef1f7;
+        }
+    }
+}

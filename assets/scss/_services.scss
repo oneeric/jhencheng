@@ -1,0 +1,47 @@
+
+
+
+/*===========================
+    20.SERVICES css 
+===========================*/
+
+
+
+.services-item-area{
+	& .services-item{
+		margin-bottom: 2em;
+		& .title{
+			font-size: 30px;
+			padding-top: 1.5em;
+			@media #{$xs} {
+				font-size: 26px;
+			}
+		}
+		& p{
+			padding: 11px 20px 35px;
+			@media #{$md} {
+				padding: 11px 0 35px;
+			}
+			@media #{$xs} {
+				padding: 11px 0 35px;
+			}
+		}
+		& a{
+			height: 60px;
+			width: 60px;
+			border-radius: 50%;
+			border: 4px solid #dbeaff;
+			text-align: center;
+			line-height: 55px;
+			color: $heading-color;
+			@include transition(0.3s);
+		}
+		&:hover{
+			& a{
+				background: $theme-color;
+				color: $white;
+				border-color: $theme-color;
+			}
+		}
+	}
+}

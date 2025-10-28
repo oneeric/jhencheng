@@ -1,0 +1,184 @@
+/*===========================
+    22.FAQ css 
+===========================*/
+
+
+
+.faq-area {
+    padding-top: 114px;
+    padding-bottom: 87px;
+
+    & .section-title {
+        & .title {
+            &::before {
+                content: 'Ques';
+            }
+        }
+    }
+    &.faq-page{
+        padding-top: 82px;
+    }
+}
+
+
+
+.faq-accordion {
+    padding-top: 35px;
+    @media #{$lg} {
+        padding-top: 30px;
+    }
+    @media #{$md} {
+        padding-top: 30px;
+    }
+    @media #{$xs} {
+        padding-top: 30px;
+    }
+
+    & .accordion {
+        border: 2px solid transparent;
+
+        & .card {
+            border-radius: 0px !important;
+            border: 0;
+            margin-bottom: 30px;
+            background-color: transparent;
+            border: 2px solid #eef4f7 !important;
+
+            &:first-child {
+                border-top: 0;
+            }
+
+            & .card-header {
+                border-bottom: 0;
+                padding: 0;
+                margin: 0;
+                background-color: transparent;
+
+                & a {
+                    line-height: 70px;
+                    padding: 0 0 0 30px;
+                    text-decoration: none;
+                    font-weight: 700;
+                    font-size: 16px;
+                    width: 100%;
+                    color: $heading-color;
+                    position: relative;
+                    & span{
+                        color: $theme-color;
+                        padding-right: 12px;
+                        @media #{$lg} {
+                            padding-right: 0;
+                        }
+                    }
+
+
+                    @media #{$lg} {
+                        padding: 0 0 0 20px;
+                        font-size: 13px;
+                    }
+
+                    @media #{$md} {
+                        padding: 15px 0 15px 20px;
+                        line-height: 26px;
+                        font-size: 13px;
+                    }
+
+                    @media #{$xs} {
+                        padding: 15px 30px 15px 20px;
+                        line-height: 26px;
+                        font-size: 14px;
+                    }
+
+                    & i {
+                        color: $white;
+                        padding-right: 20px;
+
+                        @media #{$lg} {
+                            padding-right: 10px;
+                        }
+                    }
+
+                    &.collapsed {
+                        font-size: 16px;
+                        color: $heading-color;
+
+                        @media #{$lg} {
+                            padding: 0 0 0 20px;
+                            font-size: 14px;
+                        }
+
+                        @media #{$md} {
+                            padding: 15px 0 15px 20px;
+                            line-height: 26px;
+                            font-size: 13px;
+                        }
+
+                        @media #{$xs} {
+                            padding: 15px 30px 15px 20px;
+                            line-height: 26px;
+                            font-size: 14px;
+                        }
+
+                        &::before {
+                            content: '\f067';
+                            color: #99b1c8;
+                        }
+                    }
+
+                    &::before {
+                        position: absolute;
+                        content: '\f068';
+                        right: 36px;
+                        font-size: 16px;
+                        font-family: 'Font Awesome 5 Pro';
+                        color: #99b1c8;
+                        @media #{$lg} {
+                            right: 10px;
+                        }
+
+                        @media #{$xs} {
+                            right: 10px;
+                        }
+
+                    }
+                }
+            }
+
+            & .card-body {
+                padding: 0 20px 25px 65px !important;
+
+                @media #{$lg} {
+                    padding: 0 10px 25px 65px !important;
+                }
+
+
+
+                & p {
+                    margin-top: -10px;
+                    font-size: 14px;
+                    color: $body-color;
+                }
+            }
+
+            &.show {
+                .card-body {
+                    padding: 0 40px 14px 40px !important;
+
+                    & p {
+                        margin-top: -10px;
+                        font-size: 14px;
+                        color: $body-color;
+                    }
+                }
+            }
+        }
+    }
+    &.faq-accordion-2{
+        @media #{$md} {
+            padding-top: 0;
+        }
+        @media #{$xs} {
+            padding-top: 0;
+        }
+    }
+}

@@ -1,0 +1,159 @@
+
+
+
+/*===========================
+    11.FACILITIES css 
+===========================*/
+
+
+
+
+
+
+
+
+.facilities-area{
+	padding-top: 113px;
+	background: #f2f8ff;
+	padding-bottom: 112px;
+	& .section-title{
+		& span{
+			color: #007afa;
+		}
+		& .title{
+			&::before{
+				content: 'Facilities';
+			}
+		}
+	}
+	& .facilities-item{
+		position: relative;
+		padding-left: 120px;
+		@media #{$lg} {
+			padding-left: 80px;
+		}
+		& i{
+			position: absolute;
+			left: 0;
+			top: 0;
+			height: 90px;
+			width: 90px;
+			text-align: center;
+			line-height: 90px;
+			border-radius: 50%;
+			background: #fff;
+			box-shadow: 0px 8px 16px 0px rgba(0, 84, 255, 0.1);
+			font-size: 36px;
+			color: #007af0;
+			@include transition(0.5s);
+			@media #{$lg} {
+				height: 70px;
+				width: 70px;
+				line-height: 70px;
+				font-size: 24px;
+			}
+
+		}
+		& p{
+			@media #{$lg} {
+				font-size: 14px;
+			}
+			@media #{$md} {
+				font-size: 14px;
+			}
+		}
+		& .title{
+			font-size: 24px;
+			color: $heading-color;
+			padding-bottom: 17px;
+			@media #{$lg} {
+				font-size: 22px;
+			}
+			@media #{$md} {
+				font-size: 22px;
+			}
+		}
+		&:hover{
+			& i{
+				background: #007af0;
+				color: $white;
+				transform: rotateX(360deg);
+			}
+		}
+	}
+	&.facilities-3-area{
+		& .section-title{
+			& span{
+				color: $theme-color;
+
+			}
+		}
+		& .facilities-item {
+			& i{
+				color: $theme-color;
+			}
+			&:hover{
+				& i{
+					color: $white;
+					background: $theme-color;
+				}
+			}
+		}
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+.play-area{
+	margin-top: 40px;
+	margin-left: 40px;
+	margin-right: 40px;
+	@media #{$xs} {
+		margin-left: 0;
+		margin-right: 0;
+	}
+	@media #{$sm} {
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+	& .play-main{
+		height: 750px;
+		@media #{$lg} {
+			height: 550px;
+		}
+		@media #{$md} {
+			height: 500px;
+		}
+		@media #{$xs} {
+			height: 400px;
+		}
+		& .play-item{
+			height: 100%;
+			width: 100%;
+			position: relative;
+			& a{
+				position: absolute;
+				content: '';
+				left: 50%;
+				top: 50%;
+				transform: translate(-50% ,-50%);
+				height: 100px;
+				width: 100px;
+				text-align: center;
+				line-height: 88px;
+				border: 6px solid #476578;
+				border-radius: 50%;
+				font-size: 18px;
+				color: #fff;
+			}
+		}
+	}
+}

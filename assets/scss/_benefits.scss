@@ -1,0 +1,116 @@
+
+
+
+/*===========================
+    7.BENEFITS css 
+===========================*/
+
+
+
+.benefits-area{
+	padding-top: 114px;
+	padding-bottom: 120px;
+	position: relative;
+	&::before{
+		position: absolute;
+		left: 0;
+		top: 0;
+		height: 100%;
+		width: 100%;
+		content: '';
+		background-color: rgb(30 29 26 / 80%);
+	}
+	& .benefits-content{
+		& span{
+			color: $white;
+			font-weight: 700;
+			padding-bottom: 19px;
+		}
+		& .title{
+			font-size: 60px;
+			line-height: 70px;
+			color: $white;
+			padding-bottom: 35px;
+			@media #{$md} {
+				font-size: 48px;
+				line-height: 58px;
+			}
+			@media #{$xs} {
+				font-size: 32px;
+				line-height: 42px;
+			}
+			@media #{$sm} {
+				font-size: 48px;
+				line-height: 58px;
+			}
+		}
+		& ul{
+			& li{
+				display: inline-block;
+				margin: 0 13px;
+				& a{
+					@media #{$xs} {
+						padding: 0 13px;
+					}
+					@media #{$sm} {
+						padding: 0 43px;
+					}
+					&:hover{
+						background: $theme-color;
+						border-color: #fba07d;
+					}
+				}
+				&:last-child{
+					& a{
+						background: $theme-color;
+						border-color: #fba07d;
+						&:hover{
+							background: $heading-color;
+							border-color: $heading-color;
+						}
+
+					}
+				}
+			}
+		}
+	}
+	&.benefits-3-area{
+		&::before{
+			display: none;
+		}
+		& .benefits-content {
+			& span{
+				color: $heading-color;
+			}
+			& .title{
+				color: $heading-color;
+			}
+			& ul{
+				& li{
+					& a{
+						background: $theme-color;
+						color: $white;
+						border-color: $theme-color;
+						&:hover{
+							background-color: transparent;
+							color: $heading-color;
+							border-color: #c8e0ff;
+						}
+						&.main-btn-2{
+							background-color: transparent;
+							color: $heading-color;
+							border-color: #c8e0ff;
+							&:hover{
+								background: $theme-color;
+								color: $white;
+								border-color: $theme-color;
+
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+

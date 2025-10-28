@@ -1,0 +1,281 @@
+/*===========================
+    9.NEWS css 
+===========================*/
+
+
+
+
+
+.news-area {
+    padding-top: 114px;
+    padding-bottom: 120px;
+
+    & .section-title {
+        & .title {
+            &::before {
+                content: 'News';
+            }
+        }
+    }
+
+    & .news-item {
+        & .news-thumb {
+            overflow: hidden;
+
+            & img {
+                width: 100%;
+                transform: scale(1);
+                @include transition(0.3s);
+            }
+        }
+
+        & .news-content {
+            position: relative;
+
+            & ul {
+                & li {
+                    display: inline-block;
+                    font-size: 14px;
+                    font-weight: 700;
+                    color: #28586b;
+
+                    & i {
+                        padding-right: 6px;
+                        color: $theme-color;
+                    }
+
+                    &:first-child {
+                        margin-right: 28px;
+                    }
+                }
+            }
+
+            & .title {
+                font-size: 24px;
+                line-height: 34px;
+                padding-top: 5px;
+                padding-bottom: 3px;
+
+                @media #{$lg} {
+                    font-size: 19px;
+                }
+            }
+
+            & > a {
+                font-size: 14px;
+                font-weight: 700;
+                color: #28586b;
+                line-height: 34px;
+                text-transform: uppercase;
+                padding-right: 30px;
+                border-bottom: 2px solid $border-color;
+                @include transition(0.3s);
+            }
+
+            & span {
+                position: absolute;
+                top: -20px;
+                right: 10px;
+                background: $theme-color;
+                color: $white;
+                padding: 0 24px;
+                line-height: 40px;
+                border-radius: 30px;
+                box-shadow: 0px 8px 16px 0px rgba(255, 93, 34, 0.3);
+                font-size: 14px;
+                font-weight: 700;
+            }
+        }
+
+        &:hover {
+            & .news-thumb {
+                & img {
+                    transform: scale(1.1);
+                }
+            }
+
+            & .news-content {
+                & a {
+                    color: $theme-color;
+                    border-color: $theme-color;
+                }
+            }
+        }
+    }
+
+    &.event-news {
+        background: #f2faff;
+
+        & .news-item {
+            & .news-content {
+                position: relative;
+
+                & .title {
+                    font-size: 24px;
+                    line-height: 34px;
+                    padding-top: 10px;
+
+                    & a {
+                        color: #001219;
+                    }
+
+                }
+
+                & .date-box {
+                    position: absolute;
+                    right: 0;
+                    top: -26px;
+                    background: $theme-color;
+                    height: 80px;
+                    width: 70px;
+
+                    & h4 {
+                        font-size: 40px;
+                        font-weight: 600;
+                        color: $white;
+                    }
+
+                    & b {
+                        background: #ee4000;
+                        color: $white;
+                        display: block;
+                        line-height: 24px;
+                        font-weight: 700;
+                        text-transform: uppercase;
+                        margin-top: 8px;
+                    }
+                }
+            }
+        }
+
+    }
+}
+
+
+
+
+
+.news-feeds-area {
+    & .section-title {
+        & span {
+            color: #007afa;
+        }
+
+        & .title {
+            &::before {
+                content: 'News';
+            }
+        }
+    }
+
+    & .news-feeds-item {
+        position: relative;
+
+        & img {
+            width: 100%;
+        }
+
+        & .news-feeds-overlay {
+            position: absolute;
+            left: 0;
+            top: 0;
+            height: 100%;
+            width: 100%;
+            background: linear-gradient(-45deg, rgba(0, 210, 255, 1) 25%, rgba(0, 54, 164, 1) 100%);
+            padding-left: 60px;
+            padding-top: 75px;
+            padding-right: 40px;
+
+            @media #{$lg} {
+                padding-left: 20px;
+                padding-top: 45px;
+                padding-right: 0;
+            }
+
+            @media #{$xs} {
+                padding-left: 20px;
+                padding-right: 20px;
+                padding-top: 20px;
+            }
+
+            @media #{$sm} {
+                padding-left: 60px;
+                padding-top: 75px;
+                padding-right: 40px;
+            }
+
+            & ul {
+                & li {
+                    display: inline-block;
+                    color: $white;
+
+                    @media #{$xs} {
+                        font-size: 15px;
+                    }
+
+                    & i {
+                        padding-right: 5px;
+                    }
+
+                    &:last-child {
+                        margin-left: 27px;
+
+                        @media #{$xs} {
+                            margin-left: 10px;
+                        }
+
+                        @media #{$sm} {
+                            margin-left: 27px;
+                        }
+                    }
+                }
+            }
+
+            & .title {
+                font-size: 24px;
+                line-height: 34px;
+                font-weight: 700;
+                color: $white;
+                padding-top: 17px;
+
+                @media #{$xs} {
+                    font-size: 20px;
+                }
+
+                @media #{$sm} {
+                    font-size: 24px;
+                }
+            }
+
+            & a {
+                color: $white;
+                margin-top: 8px;
+                font-size: 14px;
+                font-weight: 700;
+            }
+
+        }
+
+        &.item-2 {
+            & .news-feeds-overlay {
+                background: $heading-color;
+            }
+        }
+
+        &.item-3 {
+            & .news-feeds-overlay {
+                background: #007afa;
+            }
+        }
+
+    }
+
+}
+
+
+
+
+
+
+
+

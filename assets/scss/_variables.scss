@@ -1,0 +1,43 @@
+// Font Family
+$ar: 'Archivo', sans-serif;
+$os: 'Oswald', sans-serif;
+
+
+
+
+
+
+// Colors ---------------
+$white: #fff;
+
+$black: #222;
+
+$grey:#f2faff;
+
+// 主色調：藍綠色
+$theme-color: #1a6f67;
+
+$body-color: #28586b;
+
+$border-color:#f3f3f3;
+
+// 強調色：亮黃色
+$accent-color: #e0a00b;
+
+// Heading Color - 使用主色調
+$heading-color: #1a6f67;
+$heading-color-2: #1a6f67;
+
+// Soft color
+$black-soft:#7e7e7e;
+
+$section-padding: 13rem 0;
+
+// Responsive Variables
+$laptop: 'only screen and (min-width: 1200px) and (max-width: 1600px)';
+$lg : 'only screen and (min-width: 992px) and (max-width: 1200px)';
+$md:'only screen and (min-width: 768px) and (max-width: 991px)';
+$xs:'(max-width: 767px)';
+$sm: 'only screen and (min-width: 576px) and (max-width: 767px)';
+
+

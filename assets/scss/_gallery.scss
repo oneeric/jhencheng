@@ -1,0 +1,107 @@
+/*===========================
+    24.GALLERY css 
+===========================*/
+
+
+
+
+
+.gallery-area {
+    & .tab-btns {
+        border-bottom: 1px solid #c1e2f0;
+        margin-bottom: 25px;
+        & .nav {
+            & li {
+                & a {
+                    font-size: 18px;
+                    font-weight: 700;
+                    color: $heading-color;
+                    text-transform: capitalize;
+                    padding: 0 29px;
+                    margin: 0;
+                    line-height: 70px;
+                    @include transition(0.3s);
+                    @media #{$md} {
+                        font-size: 16px;
+                        padding: 0 15px;
+                    }
+                    @media #{$xs} {
+                        font-size: 14px;
+                        padding: 0 12px;
+                    }
+                    @media #{$sm} {
+                        font-size: 14px;
+                        padding: 0 10px;
+                    }
+
+                    &.active {
+                        background-color: transparent;
+                        color: $theme-color;
+                        position: relative;
+
+                        &::before {
+                            position: absolute;
+                            content: '';
+                            height: 4px;
+                            width: 100%;
+                            background: $theme-color;
+                            left: 0;
+                            bottom: -1px;
+                            @include transition(0.3s);
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    & .gallery-item {
+        position: relative;
+        overflow: hidden;
+        & .gallery-overlay{
+            position: absolute;
+            left: 0;
+            top: 0;
+            height: 100%;
+            width: 100%;
+            background: rgba(0, 18, 25, 0.4);
+            opacity: 0;
+            @include transition(0.3s);
+            transform: scale(0.5);
+            & a{
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                transform: translate(-50%,-50%);
+                height: 60px;
+                width: 60px;
+                text-align: center;
+                line-height: 60px;
+                background: $theme-color;
+                color: $white;
+                border-radius: 50%;
+                font-size: 24px;
+            }
+        }
+        & img {
+            width: 100%;
+            @include transition(0.3s);
+        }
+        &:hover{
+            & .gallery-overlay{
+                opacity: 1;
+                transform: scale(1);
+            }
+            & img{
+                transform: scale(1.1);
+            }
+        }
+    }
+    & .row{
+        & .col-lg-12,
+        & .col-lg-4{
+            padding-left: 7px;
+            padding-right: 8px;
+        }
+    }
+}

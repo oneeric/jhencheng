@@ -1,0 +1,163 @@
+/*===========================
+    25.BOOKING css 
+===========================*/
+
+
+
+
+.booking-area {
+    & .booking-box {
+        border: 16px solid #e9f1ff;
+        padding: 79px 85px 85px;
+        @media #{$lg} {
+            padding: 50px;
+        }
+        @media #{$xs} {
+            padding: 10px;
+        }
+        @media #{$sm} {
+            padding: 30px;
+        }
+
+        & span {
+            font-weight: 700;
+            color: $theme-color;
+            padding-left: 70px;
+            position: relative;
+
+            &::before {
+                position: absolute;
+                content: '';
+                left: 33px;
+                top: 50%;
+                transform: translateY(-50%);
+                height: 5px;
+                width: 15px;
+                border-radius: 30px;
+                background: $theme-color;
+            }
+
+            &::after {
+                position: absolute;
+                content: '';
+                left: 0px;
+                top: 50%;
+                transform: translateY(-50%);
+                height: 5px;
+                width: 28px;
+                border-radius: 30px;
+                background: $theme-color;
+            }
+        }
+
+        & .title {
+            font-size: 60px;
+            padding-top: 20px;
+            padding-bottom: 55px;
+            @media #{$lg} {
+                font-size: 50px;
+            }
+            @media #{$xs} {
+                font-size: 30px;
+            }
+            @media #{$sm} {
+                font-size: 40px;
+            }
+        }
+
+        & .input-box {
+            position: relative;
+
+            & i {
+                position: absolute;
+                right: 38px;
+                top: 50%;
+                transform: translateY(-50%);
+                font-size: 14px;
+                color: $theme-color;
+            }
+
+            & input {
+                width: 100%;
+                padding-left: 38px;
+                line-height: 70px;
+                font-size: 14px;
+                border: 2px solid #d1ddf2;
+                color: $body-color;
+                border-bottom: 0 !important;
+
+                &::placeholder {
+                    opacity: 1;
+                }
+            }
+
+            &.item {
+                & input {
+                    border-bottom: 2px solid #d1ddf2 !important;
+                }
+
+            }
+        }
+    }
+    & .booking-content{
+        @media #{$md} {
+            margin-top: 30px;
+        }
+        @media #{$xs} {
+            margin-top: 30px;
+        }
+        & .booking-content-item{
+            padding-left: 30px;
+            @media #{$lg} {
+                padding-left: 0;
+            }
+            @media #{$md} {
+                padding-left: 0;
+            }
+            @media #{$xs} {
+                padding-left: 0;
+            }
+            & .title{
+                font-size: 30px;
+            }
+            & p{
+                padding-top: 15px;
+                padding-bottom: 25px;
+                @media #{$lg} {
+                    font-size: 14px;
+                }
+                @media #{$xs} {
+                    font-size: 14px;
+                }
+                @media #{$sm} {
+                    font-size: 16px;
+                }
+            }
+            & ul{
+                & li{
+                    color: $body-color;
+                    line-height: 34px;
+                    @media #{$lg} {
+                        font-size: 14px;
+                    }
+                    @media #{$xs} {
+                        font-size: 14px;
+                    }
+                    @media #{$sm} {
+                        font-size: 16px;
+                    }
+                    & i{
+                        color: $theme-color;
+                        padding-right: 10px;
+                    }
+                }
+            }
+        }
+        & .bd{
+            border-bottom: 1px solid #e8e8e8;
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+    }
+
+}

@@ -1,0 +1,46 @@
+/*-----------------------------------------------------------------------------------
+    Dynamic Title Background
+-----------------------------------------------------------------------------------*/
+
+// 動態標題背景文字樣式
+.section-title{
+    .title {
+        position: relative;
+        
+        &::before {
+            content: attr(attr-text) !important;
+            text-transform: uppercase;
+            position: absolute;
+            bottom: -35px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 200px;
+            font-weight: 900;
+            color: rgb(26 111 103 / 9%);
+            z-index: -1;
+            line-height: 1;
+            white-space: nowrap;
+        }
+    }
+}
+
+// 響應式設計
+@media only screen and (max-width: 991px) {
+    .section-title[attr-text] .title::before {
+        font-size: 150px;
+    }
+}
+
+@media (max-width: 767px) {
+    .section-title[attr-text] .title::before {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .section-title[attr-text] .title::before {
+        font-size: 112px;
+        bottom: -20px;
+        display: block;
+    }
+}

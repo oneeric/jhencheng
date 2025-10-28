@@ -1,0 +1,128 @@
+
+
+
+/*===========================
+    18.FEEDBACK css 
+===========================*/
+
+
+
+.feedback-area{
+	& .feedback-content{
+		& span{
+			color: $theme-color;
+			font-weight: 700;
+		}
+		& .title{
+			font-size: 60px;
+			padding-top: 6px;
+			@media #{$xs} {
+				font-size: 36px;
+			}
+			@media #{$sm} {
+				font-size: 60px;
+			}
+		}
+		& p{
+			padding-right: 24px;
+			padding-top: 16px;
+			@media #{$lg} {
+				padding-right: 0;
+				font-size: 15px;
+			}
+			@media #{$xs} {
+				padding-right: 0;
+			}
+		}
+	}
+	& .feedback-item{
+		border: 2px solid #d7e6f0;
+		padding: 30px 38px 38px;
+		border-radius: 5px;
+		position: relative;
+		@include transition(0.3s);
+		z-index: 5;
+		@media #{$lg} {
+			padding: 30px 20px 38px;
+		}
+		@media #{$md} {
+			margin-top: 30px;
+		}
+		@media #{$xs} {
+			margin-top: 30px;
+			padding: 20px;
+		}
+		@media #{$sm} {
+			padding: 30px 38px 38px;
+		}
+		&::before{
+			position: absolute;
+			content: '01';
+			right: 15px;
+			bottom: 15px;
+			font-size: 140px;
+			line-height: 100px;
+			font-weight: 700;
+			color: $white;
+			@include transition(0.3s);
+			z-index: -1;
+			text-shadow: 2px 2px 0 #e1ecf4, 2px -2px 0 #e1ecf4, -2px 2px 0 #e1ecf4, -2px -2px 0 #e1ecf4, 2px 0px 0 #e1ecf4, 0px 2px 0 #e1ecf4, -2px 0px 0 #e1ecf4, 0px -2px 0 #e1ecf4, 2px 2px 5px rgba(206, 89, 55, 0);
+		}
+		& p{
+			font-size: 14px;
+			line-height: 26px;
+			@include transition(0.3s);
+		}
+		& .item{
+			position: relative;
+			padding-left: 75px;
+			margin-top: 21px;
+			margin-bottom: 6px;
+			& img{
+				position: absolute;
+				left: 0;
+				top: 50%;
+				transform: translateY(-50%);
+			}
+			& .title{
+				font-size: 18px;
+				@include transition(0.3s);
+				@media #{$lg} {
+					font-size: 16px;
+				}
+			}
+			& span{
+				font-size: 14px;
+				font-weight: 700;
+				color: $theme-color;
+				padding-top: 2px;
+			}
+		}
+		&.item-2{
+			&::before{
+				content: '02';
+			}
+		}
+		&.item-3{
+			&::before{
+				content: '03';
+			}
+		}
+		&:hover{
+			background: $heading-color;
+			border-color: $heading-color;
+			&::before{
+				color: $heading-color;
+				text-shadow: 2px 2px 0 #1e4491, 2px -2px 0 #1e4491, -2px 2px 0 #1e4491, -2px -2px 0 #1e4491, 2px 0px 0 #1e4491, 0px 2px 0 #1e4491, -2px 0px 0 #1e4491, 0px -2px 0 #1e4491, 2px 2px 5px rgba(206, 89, 55, 0);
+			}
+			& p{
+				color: $white;
+			}
+			& .item{
+				& .title{
+					color: $white;
+				}
+			}
+		}
+	}
+}

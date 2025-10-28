@@ -1,0 +1,116 @@
+/*-----------------------------------------------------------------------------------
+    Registration Services Area
+-----------------------------------------------------------------------------------*/
+
+.fun-facts {
+    .registration-services {
+        margin-top: 30px;
+        
+        .service-item {
+            margin-bottom: 30px;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            border-left: 4px solid #1a6f67;
+            transition: all 0.3s ease;
+            
+            &:hover {
+                background: rgba(255, 255, 255, 0.15);
+                transform: translateX(5px);
+            }
+            
+            .service-title {
+                font-size: 20px;
+                font-weight: 600;
+                color: #1a6f67;
+                margin-bottom: 10px;
+                display: flex;
+                align-items: center;
+                
+                &::before {
+                    content: "✓";
+                    display: inline-block;
+                    width: 20px;
+                    height: 20px;
+                    background: #1a6f67;
+                    color: #fff;
+                    border-radius: 50%;
+                    text-align: center;
+                    line-height: 20px;
+                    font-size: 12px;
+                    margin-right: 10px;
+                    flex-shrink: 0;
+                }
+            }
+            
+            p {
+                color: #333;
+                line-height: 1.6;
+                margin: 0;
+                font-size: 15px;
+            }
+        }
+        
+        .service-benefits {
+            margin-top: 25px;
+            padding: 20px;
+            background: linear-gradient(135deg, #1a6f67, #007afa);
+            border-radius: 10px;
+            color: #fff;
+            
+            p {
+                margin: 0;
+                font-size: 15px;
+                line-height: 1.6;
+                
+                strong {
+                    color: #fff;
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+}
+
+// Responsive Design
+@media (max-width: 991px) {
+    .fun-facts {
+        .registration-services {
+            .service-item {
+                margin-bottom: 20px;
+                padding: 15px;
+                
+                .service-title {
+                    font-size: 18px;
+                }
+                
+                p {
+                    font-size: 14px;
+                }
+            }
+            
+            .service-benefits {
+                padding: 15px;
+                
+                p {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .fun-facts {
+        .registration-services {
+            .service-item {
+                margin-bottom: 15px;
+                padding: 12px;
+                
+                .service-title {
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}

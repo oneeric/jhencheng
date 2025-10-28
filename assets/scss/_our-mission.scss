@@ -1,0 +1,150 @@
+/*-----------------------------------------------------------------------------------
+    Our Mission Area
+-----------------------------------------------------------------------------------*/
+
+.our-mission-area {
+    padding: 15rem 0;
+    background: #f8f9fa;
+    
+    .section-title {
+        margin-bottom: 60px;
+        
+        .title {
+            position: relative;
+            
+            &::before {
+                content: "Our Mission";
+                text-transform: uppercase;
+                position: absolute;
+                bottom: -35px;
+                left: 50%;
+                transform: translateX(-50%);
+                font-size: 200px;
+                font-weight: 900;
+                color: rgb(26 111 103 / 9%);
+                z-index: -1;
+                line-height: 1;
+                white-space: nowrap;
+            }
+        }
+    }
+    
+    .mission-item {
+        padding: 40px 30px;
+        background: #fff;
+        border-radius: 10px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 39, 118, 0.1);
+        transition: all 0.3s ease;
+        margin-bottom: 30px;
+        
+        &:hover {
+            transform: translateY(-5px);
+            box-shadow: 0px 15px 30px 0px rgba(0, 39, 118, 0.15);
+        }
+        
+        .mission-icon {
+            width: 80px;
+            height: 80px;
+            background: linear-gradient(135deg, #007afa, #1a6f67);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 25px;
+            
+            i {
+                font-size: 30px;
+                color: #fff;
+            }
+        }
+        
+        .title {
+            font-size: 22px;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-bottom: 15px;
+        }
+        
+        p {
+            color: #666;
+            line-height: 1.6;
+            margin: 0;
+        }
+    }
+}
+
+// Responsive Design
+@media only screen and (max-width: 991px) {
+    .our-mission-area {
+        padding: 80px 0;
+        
+        .section-title .title::before {
+            font-size: 150px;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .our-mission-area {
+        padding: 60px 0;
+        
+        .section-title .title::before {
+            display: none;
+        }
+        
+        .mission-item {
+            padding: 30px 20px;
+            margin-bottom: 20px;
+        }
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .our-mission-area .section-title .title::before {
+        font-size: 112px;
+        bottom: -20px;
+        display: block;
+    }
+}
+
+/* Service Tags */
+.our-mission-area .service-tags {
+    list-style: none ;
+    padding: 1em 0 0 ;
+    border-top: 1px solid #e0e0e0 ;
+    margin: 20px 0 0 0 ;
+    display: flex ;
+    flex-wrap: wrap ;
+    gap: 6px ;
+    
+    li {
+        display: inline-block ;
+        background: #f8f9fa ;
+        color: #1a6f67 ;
+        padding: 4px 10px ;
+        border-radius: 20px ;
+        font-size: 14px ;
+        font-weight: 500 ;
+        transition: all 0.3s ease ;
+        border: 1px solid #e0e0e0 ;
+        
+        &:hover {
+            background: #1a6f67 ;
+            color: #ffffff ;
+            transform: translateY(-1px) ;
+            box-shadow: 0 2px 6px rgba(26, 111, 103, 0.2) ;
+        }
+        
+        i {
+            margin-right: 4px ;
+            font-size: 10px ;
+        }
+    }
+    
+    @media #{$xs} {
+        li {
+            font-size: 11px ;
+            padding: 3px 8px ;
+        }
+    }
+}

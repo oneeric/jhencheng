@@ -1,0 +1,186 @@
+/*===========================
+    23.CONTACT css 
+===========================*/
+
+
+
+.contact-touch-area{
+    padding-bottom: 120px;
+    & .contact-touch-box{
+        border: 16px solid #e9f1ff;
+        padding: 34px;
+        @media #{$xs} {
+            padding: 10px;
+        }
+        @media #{$sm} {
+            padding: 34px;
+        }
+        & .contact-touch-item{
+            padding-left: 50px;
+            @media #{$md} {
+                padding-left: 0;
+                padding-bottom: 20px;
+            }
+            @media #{$xs} {
+                padding-left: 0;
+                padding-bottom: 20px;
+            }
+            & .contact-touch-title{
+                & span{
+                    font-weight: 700;
+                    color: $theme-color;
+                    padding-left: 70px;
+                    position: relative;
+                    &::before{
+                        position: absolute;
+                        content: '';
+                        left: 33px;
+                        top: 50%;
+                        transform: translateY(-50%);
+                        height: 5px;
+                        width: 15px;
+                        border-radius: 30px;
+                        background: $theme-color;
+                    }
+                    &::after{
+                        position: absolute;
+                        content: '';
+                        left: 0px;
+                        top: 50%;
+                        transform: translateY(-50%);
+                        height: 5px;
+                        width: 28px;
+                        border-radius: 30px;
+                        background: $theme-color;
+                    }
+                }
+                & .title{
+                    font-size: 60px;
+                    text-transform: capitalize;
+                    padding-top: 19px;
+                    padding-bottom: 43px;
+                    @media #{$lg} {
+                        font-size: 50px;
+                    }
+                    @media #{$xs} {
+                        font-size: 36px;
+                        padding-top: 0;
+                    }
+                    @media #{$sm} {
+                        font-size: 60px;
+                        padding-top: 19px;
+                    }
+                }
+            }
+            & .contact-touch-input{
+                & .input-box{
+                    position: relative;
+                    & i{
+                        position: absolute;
+                        right: 35px;
+                        top: 30px;
+                        font-size: 14px;
+                        color: $theme-color;
+                    }
+                    & input{
+                        width: 100%;
+                        border: 2px solid #d1ddf2;
+                        border-bottom: 0 !important;
+                        line-height: 70px;
+                        padding-left: 38px;
+                        font-size: 14px;
+                        color: $body-color;
+                        &::placeholder{
+                            opacity: 1;
+                        }
+                    }
+                    & textarea{
+                        border: 2px solid #d1ddf2;
+                        height: 140px;
+                        padding-left: 38px;
+                        padding-top: 20px;
+                        width: 100%;
+                        resize: none;
+                        font-size: 14px;
+                        color: $body-color;
+                        &::placeholder{
+                            opacity: 1;
+                        }
+                    }
+                    & button{
+                        margin-top: 18px;
+                    }
+                }
+            }
+
+        }
+        & .contact-touch-map{
+            & iframe{
+                width: 100%;
+                height: 610px;
+            }
+        }
+    }
+}
+
+
+
+.contact-us-area{
+    position: relative;
+    padding-top: 114px;
+    padding-bottom: 120px;
+    &::before{
+        position: absolute;
+        content: '';
+        left: 0;
+        top: 0;
+        height: 480px;
+        width: 100%;
+        background: $heading-color;
+    }
+    & .section-title{
+        & .title{
+            color: $white;
+            &::before{
+                display: none;
+            }
+        }
+    }
+    & .contact-us-item{
+        box-shadow: 0px 8px 16px 0px rgba(0, 39, 118, 0.1);
+        margin-top: 30px;
+        padding-top: 68px;
+        padding-bottom: 60px;
+        background: $white;
+        & > i{
+            font-size: 70px;
+            color: $theme-color;
+        }
+        & .title{
+            font-size: 30px;
+            text-transform: capitalize;
+            padding-top: 33px;
+            padding-bottom: 14px;
+        }
+        & ul{
+            & li{
+                line-height: 28px;
+            }
+        }
+        & a{
+            height: 60px;
+            width: 60px;
+            text-align: center;
+            line-height: 55px;
+            border: 4px solid #dbeaff;
+            border-radius: 50%;
+            font-size: 20px;
+            color: $heading-color;
+            margin-top: 32px;
+        }
+    }
+}
+
+
+
+

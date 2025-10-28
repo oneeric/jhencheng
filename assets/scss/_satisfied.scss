@@ -1,0 +1,74 @@
+
+
+
+/*===========================
+    12.SATISFIED css 
+===========================*/
+
+
+
+.satisfied-area{
+	& .satisfied-item{
+		position: relative;
+		overflow: hidden;
+		& img{
+			width: 100%;
+			@include transition(0.3s);
+		}
+		& .satisfied-overlay{
+			position: absolute;
+			left: 0;
+			top: 0;
+			height: 100%;
+			width: 100%;
+			background-image: -moz-linear-gradient( -45deg, rgba(0,54,164,.9) 0%, rgba(0,210,255,.9) 100%);
+			background-image: -webkit-linear-gradient( -45deg, rgba(0,54,164,.9) 0%, rgba(0,210,255,.9) 100%);
+			background-image: -ms-linear-gradient( -45deg, rgba(0,54,164,.9) 0%, rgba(0,210,255,.9) 100%);
+			opacity: 0;
+			@include transition(0.3s);
+			& .satisfied-content{
+				& .title{
+					color: $white;
+					font-size: 60px;
+					line-height: 70px;
+					@media #{$lg} {
+						font-size: 50px;
+						line-height: 60px;
+					}
+				}
+				& span{
+					color: $white;
+					font-weight: 700;
+					padding-bottom: 30px;
+				}
+				& a{
+					line-height: 60px;
+					border: 2px solid rgba(255, 255, 255,.3);
+					padding: 0 46px;
+					border-radius: 30px;
+					color: $white;
+					font-weight: 700;
+				}
+			}
+		}
+		&:hover{
+			& img{
+				transform: scale(1.1);
+			}
+			& .satisfied-overlay{
+				opacity: 1;
+
+			}
+		}
+	}
+}
+
+.overley {
+  opacity: 0.902;
+  position: absolute;
+  left: 768px;
+  top: 4551px;
+  width: 384px;
+  height: 384px;
+  z-index: 174;
+}
