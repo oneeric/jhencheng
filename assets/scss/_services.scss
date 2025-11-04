@@ -20,11 +20,13 @@
 .services-item-area{
 	& .services-item{
 		margin-bottom: 2em;
+		text-align: left !important;
 		& .title{
 			font-size: 30px;
 			padding-top: 1.5em;
 			@media #{$xs} {
-				font-size: 26px;
+				font-size: 22px;
+				padding-top: 0;
 			}
 		}
 		& p{
@@ -33,16 +35,16 @@
 				padding: 11px 0 35px;
 			}
 			@media #{$xs} {
-				padding: 11px 0 35px;
+				padding: 6px 0 20px;
 			}
 		}
 		& a{
-			height: 60px;
-			width: 60px;
+			height: 46px;
+			width: 46px;
 			border-radius: 50%;
-			border: 4px solid #dbeaff;
+			border: 3px solid #dbeaff;
 			text-align: center;
-			line-height: 55px;
+			line-height: 42px;
 			color: $heading-color;
 			@include transition(0.3s);
 		}
@@ -52,6 +54,21 @@
 				color: $white;
 				border-color: $theme-color;
 			}
+		}
+
+		// mobile: icon | text | button in one row
+		@media #{$xs} {
+			display: flex;
+			align-items: center;
+			gap: 12px;
+			text-align: left;
+			padding: 10px 8px;
+			
+			.service-icon { margin: 0; flex: 0 0 50px; display:flex; justify-content:center; }
+			.services-text { flex: 1; }
+			.title { margin: 0 0 2px 0; }
+			p { margin: 0; }
+			a { margin-left: auto; }
 		}
 	}
 }
@@ -208,6 +225,9 @@
                         justify-content: center;
                         width: 140px;
                         height: 140px;
+                        min-width: 140px;
+                        min-height: 140px;
+                        flex: 0 0 140px; /* prevent compression */
                         background: $theme-color;
                         color: $white;
                         border-radius: 50%;
@@ -412,7 +432,7 @@
             .process-steps {
                 gap: 16px;
                 .step-item {
-                    .step-number { width: 110px; height: 110px; i { font-size: 44px; } .num { font-size: 18px; bottom: 12px; } }
+                    .step-number { width: 110px; height: 110px; min-width:110px; min-height:110px; flex:0 0 110px; i { font-size: 44px; } .num { font-size: 18px; bottom: 12px; } }
                 }
             }
         }
@@ -429,7 +449,7 @@
                     align-items: center;
                     width: 100%;
                     
-                    .step-number { width: 56px; height: 56px; margin-right: 14px; box-shadow: 0 3px 10px rgba(26, 111, 103, 0.25); i { font-size: 22px; transform: translate(-50%, -55%); } .num { font-size: 12px; bottom: 8px; } }
+                    .step-number { width: 56px; height: 56px; min-width:56px; min-height:56px; flex:0 0 56px; margin-right: 14px; box-shadow: 0 3px 10px rgba(26, 111, 103, 0.25); i { font-size: 22px; transform: translate(-50%, -55%); } .num { font-size: 12px; bottom: 8px; } }
                     .step-content { 
                         margin-top: 0; 
                         max-width: 100%; 

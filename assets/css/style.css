@@ -141,6 +141,12 @@ p {
   padding-bottom: 10em !important;
 }
 
+@media (max-width: 767px) {
+  .container {
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+}
 /*===== All Button Style =====*/
 .main-btn {
   display: inline-block;
@@ -448,6 +454,7 @@ p {
 }
 .header-nav .navigation .navbar .navbar-nav .nav-item {
   position: relative;
+  padding: 0.5em 1em;
 }
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
   .header-nav .navigation .navbar .navbar-nav .nav-item {
@@ -1147,42 +1154,78 @@ p {
 .sub-area {
   overflow: hidden;
 }
+.sub-area .row > div:not(:nth-child(4n)) .sub-item {
+  border-right: 1px solid #f3f3f3;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .sub-area .row > div:not(:nth-child(2n)) .sub-item {
+    border-right: 1px solid #f3f3f3;
+  }
+  .sub-area .row > div:nth-child(2n) .sub-item {
+    border-right: none;
+  }
+}
+@media (max-width: 767px) {
+  .sub-area .row > div:nth-child(2n+1) .sub-item {
+    border-right: 1px solid #f3f3f3;
+  }
+  .sub-area .row > div:nth-child(2n) .sub-item {
+    border-right: none;
+  }
+  .sub-area .row > div:nth-child(n+3) .sub-item {
+    border-top: 1px solid #f3f3f3;
+  }
+}
 .sub-area .sub-item {
-  border: 2px solid #f3f3f3;
-  padding-top: 100px;
-  padding-bottom: 100px;
-  border-top: 0;
-  border-left: 0;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  border: none;
+}
+@media (max-width: 767px) {
+  .sub-area .sub-item {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+.sub-area .sub-item img {
+  width: 70px;
+  height: auto;
+}
+@media (max-width: 767px) {
+  .sub-area .sub-item img {
+    width: 60px;
+  }
 }
 .sub-area .sub-item .title {
-  font-size: 30px;
-  padding-top: 43px;
-  padding-bottom: 15px;
+  font-size: 24px;
+  padding-top: 30px;
+  padding-bottom: 12px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
   .sub-area .sub-item .title {
-    font-size: 20px;
+    font-size: 18px;
   }
 }
 @media (max-width: 767px) {
   .sub-area .sub-item .title {
-    font-size: 26px;
+    font-size: 20px;
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .sub-area .sub-item .title {
-    font-size: 30px;
+    font-size: 22px;
   }
 }
 .sub-area .sub-item a {
-  height: 60px;
-  width: 60px;
+  height: 50px;
+  width: 50px;
   text-align: center;
-  line-height: 54px;
-  border: 4px solid #f3f3f3;
+  line-height: 44px;
+  border: 3px solid #f3f3f3;
   border-radius: 50%;
-  margin-top: 30px;
+  margin-top: 25px;
   color: #1a6f67;
+  font-size: 14px;
   -webkit-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
 }
@@ -1194,26 +1237,32 @@ p {
           box-shadow: 0px 8px 16px 0px rgba(255, 93, 34, 0.3);
 }
 .sub-area .sub-item p {
-  padding: 0 65px;
+  padding: 0 50px;
+  font-size: 14px;
+  line-height: 1.6;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
   .sub-area .sub-item p {
-    padding: 0 0;
+    padding: 0 20px;
+    font-size: 13px;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
   .sub-area .sub-item p {
-    padding: 0 5px;
+    padding: 0 20px;
+    font-size: 13px;
   }
 }
 @media (max-width: 767px) {
   .sub-area .sub-item p {
-    padding: 0 25px;
+    padding: 0 20px;
+    font-size: 13px;
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .sub-area .sub-item p {
-    padding: 0 65px;
+    padding: 0 30px;
+    font-size: 14px;
   }
 }
 
@@ -2009,6 +2058,7 @@ p {
 .about-box-area .about-box .about-box-title p {
   padding-left: 20px;
   padding-right: 70px;
+  text-align: left;
 }
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
   .about-box-area .about-box .about-box-title p {
@@ -2289,7 +2339,7 @@ p {
 }
 @media (max-width: 767px) {
   .fun-facts-2-area .fun-facts-thumb {
-    margin-top: 40px;
+    margin-bottom: 40px;
     margin-left: 0;
   }
 }
@@ -2397,6 +2447,11 @@ p {
 
 .circle-item {
   position: relative;
+}
+@media (max-width: 767px) {
+  .circle-item {
+    margin-bottom: 20px;
+  }
 }
 .circle-item .counter-item {
   position: absolute;
@@ -2656,13 +2711,34 @@ p {
 @media (max-width: 767px) {
   .our-place-area .our-place-item .our-place-content {
     padding: 115px 10px;
-    width: 310px;
+    width: 330px;
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .our-place-area .our-place-item .our-place-content {
     padding: 115px 20px;
     width: 565px;
+  }
+}
+.our-place-area .our-place-item .our-place-content .plans-item-slide {
+  position: relative;
+}
+@media (max-width: 767px) {
+  .our-place-area .our-place-item .our-place-content .plans-item-slide::after {
+    content: "← 左右滑動 →";
+    position: absolute;
+    left: 50%;
+    bottom: -28px;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    color: rgba(255, 255, 255, 0.85);
+    padding: 2px 8px;
+    border-radius: 12px;
+    background: rgba(0, 0, 0, 0.25);
+    -webkit-animation: swipeHint 1.6s ease-in-out infinite;
+            animation: swipeHint 1.6s ease-in-out infinite;
   }
 }
 .our-place-area .our-place-item .our-place-content .plans-item-slide .slick-center .our-place-item {
@@ -2764,6 +2840,47 @@ p {
   padding-top: 14px;
 }
 
+@-webkit-keyframes swipeHint {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-50%) translateY(0);
+            transform: translateX(-50%) translateY(0);
+  }
+  30% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 1;
+    -webkit-transform: translateX(-50%) translateY(-2px);
+            transform: translateX(-50%) translateY(-2px);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translateX(-50%) translateY(0);
+            transform: translateX(-50%) translateY(0);
+  }
+}
+
+@keyframes swipeHint {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-50%) translateY(0);
+            transform: translateX(-50%) translateY(0);
+  }
+  30% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 1;
+    -webkit-transform: translateX(-50%) translateY(-2px);
+            transform: translateX(-50%) translateY(-2px);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translateX(-50%) translateY(0);
+            transform: translateX(-50%) translateY(0);
+  }
+}
 /*===========================
     9.NEWS css 
 ===========================*/
@@ -3116,10 +3233,14 @@ p {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    text-align: center;
+    text-align: left;
     padding: 20px 15px;
+    position: relative;
   }
   .footer-area .footer-places .place-item .place-icon {
+    position: absolute;
+    right: 1em;
+    top: 1em;
     margin-right: 0;
     margin-bottom: 15px;
   }
@@ -3181,7 +3302,7 @@ p {
   font-size: 1.2em;
 }
 .footer-area .footer-item-2 ul > li a:hover {
-  color: #1a6f67;
+  color: #fff;
 }
 .footer-area .footer-item-3 .footer-title .title {
   font-size: 24px;
@@ -3245,6 +3366,12 @@ p {
   border-radius: 160px;
   overflow: hidden;
 }
+@media (max-width: 767px) {
+  .call-area .call-item {
+    height: 120px;
+    border-radius: 120px;
+  }
+}
 .call-area .call-item::before {
   position: absolute;
   content: "";
@@ -3293,12 +3420,18 @@ p {
 }
 @media (max-width: 767px) {
   .call-area .call-item i {
-    display: none;
+    left: 2em;
   }
 }
 .call-area .call-item .call-content {
   padding-top: 30px;
   padding-left: 33px;
+}
+@media (max-width: 767px) {
+  .call-area .call-item .call-content {
+    padding-left: 7.5em;
+    padding-top: 1.5em;
+  }
 }
 .call-area .call-item .call-content span {
   font-weight: 600;
@@ -5486,6 +5619,7 @@ p {
 ===========================*/
 .services-item-area .services-item {
   margin-bottom: 2em;
+  text-align: left !important;
 }
 .services-item-area .services-item .title {
   font-size: 30px;
@@ -5493,7 +5627,8 @@ p {
 }
 @media (max-width: 767px) {
   .services-item-area .services-item .title {
-    font-size: 26px;
+    font-size: 22px;
+    padding-top: 0;
   }
 }
 .services-item-area .services-item p {
@@ -5506,16 +5641,16 @@ p {
 }
 @media (max-width: 767px) {
   .services-item-area .services-item p {
-    padding: 11px 0 35px;
+    padding: 6px 0 20px;
   }
 }
 .services-item-area .services-item a {
-  height: 60px;
-  width: 60px;
+  height: 46px;
+  width: 46px;
   border-radius: 50%;
-  border: 4px solid #dbeaff;
+  border: 3px solid #dbeaff;
   text-align: center;
-  line-height: 55px;
+  line-height: 42px;
   color: #1a6f67;
   -webkit-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
@@ -5524,6 +5659,45 @@ p {
   background: #1a6f67;
   color: #fff;
   border-color: #1a6f67;
+}
+@media (max-width: 767px) {
+  .services-item-area .services-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 12px;
+    text-align: left;
+    padding: 10px 8px;
+  }
+  .services-item-area .services-item .service-icon {
+    margin: 0;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 50px;
+            flex: 0 0 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .services-item-area .services-item .services-text {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+  }
+  .services-item-area .services-item .title {
+    margin: 0 0 2px 0;
+  }
+  .services-item-area .services-item p {
+    margin: 0;
+  }
+  .services-item-area .services-item a {
+    margin-left: auto;
+  }
 }
 
 /*===== 服務詳細區塊 =====*/
@@ -5707,6 +5881,11 @@ p {
           justify-content: center;
   width: 140px;
   height: 140px;
+  min-width: 140px;
+  min-height: 140px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 140px;
+          flex: 0 0 140px; /* prevent compression */
   background: #1a6f67;
   color: #fff;
   border-radius: 50%;
@@ -5943,6 +6122,11 @@ p {
   .service-detail-area .service-process .process-steps .step-item .step-number {
     width: 110px;
     height: 110px;
+    min-width: 110px;
+    min-height: 110px;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 110px;
+            flex: 0 0 110px;
   }
   .service-detail-area .service-process .process-steps .step-item .step-number i {
     font-size: 44px;
@@ -5979,6 +6163,11 @@ p {
   .service-detail-area .service-process .process-steps .step-item .step-number {
     width: 56px;
     height: 56px;
+    min-width: 56px;
+    min-height: 56px;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 56px;
+            flex: 0 0 56px;
     margin-right: 14px;
     -webkit-box-shadow: 0 3px 10px rgba(26, 111, 103, 0.25);
             box-shadow: 0 3px 10px rgba(26, 111, 103, 0.25);
@@ -7270,7 +7459,7 @@ p {
 @media (max-width: 767px) {
   .contact-touch-area .contact-touch-box .contact-info {
     padding: 20px;
-    margin-top: 30px;
+    margin: 30px 0 60px 0;
   }
 }
 .contact-touch-area .contact-touch-box .contact-info .contact-info-title {
@@ -9100,6 +9289,9 @@ p {
     padding: 30px 20px;
     margin-bottom: 20px;
   }
+  .our-mission-area h4.title {
+    text-align: center;
+  }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .our-mission-area .section-title .title::before {
@@ -9146,8 +9338,13 @@ p {
   font-size: 10px;
 }
 @media (max-width: 767px) {
+  .our-mission-area .service-tags {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
   .our-mission-area .service-tags li {
-    font-size: 11px;
+    font-size: 13px;
     padding: 3px 8px;
   }
 }
@@ -9531,18 +9728,18 @@ p {
     padding: 15px 10px;
   }
   .benefits-area .benefits-content .benefits-services .benefit-item .benefit-icon {
-    width: 50px;
-    height: 50px;
-    margin-bottom: 12px;
+    width: 5em;
+    height: 5em;
+    margin-bottom: 1em;
   }
   .benefits-area .benefits-content .benefits-services .benefit-item .benefit-icon i {
     font-size: 20px;
   }
   .benefits-area .benefits-content .benefits-services .benefit-item .benefit-content h4 {
-    font-size: 16px;
+    font-size: 1.2em;
   }
   .benefits-area .benefits-content .benefits-services .benefit-item .benefit-content p {
-    font-size: 13px;
+    font-size: 1em;
   }
   .benefits-area .benefits-content .benefits-tagline p {
     font-size: 18px;
@@ -9624,18 +9821,19 @@ p {
 }
 @media (max-width: 767px) {
   .services-item-area .services-item .service-icon {
-    width: 60px;
-    height: 60px;
-    margin-bottom: 15px;
+    width: 50px;
+    height: 50px;
+    margin-bottom: 0;
   }
   .services-item-area .services-item .service-icon i {
-    font-size: 24px;
+    font-size: 20px;
   }
   .services-item-area .services-item .title {
-    font-size: 16px;
+    font-size: 1.1em;
+    margin-bottom: 0;
   }
   .services-item-area .services-item p {
-    font-size: 13px;
+    font-size: 1em;
   }
 }
 /*-----------------------------------------------------------------------------------

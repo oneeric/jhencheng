@@ -133,6 +133,7 @@
 
                 & .nav-item {
                     position: relative;
+                    padding: 0.5em 1em;
 
                     @media #{$lg} {
                         margin-right: 18px;

@@ -154,7 +154,7 @@
             margin-top: 40px;
         }
         @media #{$xs} {
-            margin-top: 40px;
+            margin-bottom: 40px;
             margin-left: 0;
         }
         & img{
@@ -295,6 +295,9 @@
 
 .circle-item{
     position: relative;
+    @media #{$xs} {
+        margin-bottom: 20px;
+    }
     & .counter-item{
         position: absolute;
         left: 51%;

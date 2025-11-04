@@ -119,6 +119,14 @@ p {
 	padding-bottom: 10em !important;
 }
 
+// Mobile container padding
+@media #{$xs} {
+    .container {
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+}
+
 /*===== All Button Style =====*/
 
 .main-btn {

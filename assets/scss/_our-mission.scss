@@ -96,6 +96,9 @@
             padding: 30px 20px;
             margin-bottom: 20px;
         }
+        h4.title{
+            text-align: center;
+        }
     }
 }
 
@@ -142,8 +145,9 @@
     }
     
     @media #{$xs} {
+        justify-content: center;
         li {
-            font-size: 11px ;
+            font-size: 13px ;
             padding: 3px 8px ;
         }
     }

@@ -10,35 +10,83 @@
 
 .sub-area{
 	overflow: hidden;
-	.sub-item{
-		border: 2px solid $border-color;
-		padding-top: 100px;
-		padding-bottom: 100px;
-		border-top: 0;
-		border-left: 0;
-		& .title{
-			font-size: 30px;
-			padding-top: 43px;
-			padding-bottom: 15px;
-			@media #{$lg} {
-				font-size: 20px;
+	.row {
+		> div {
+			&:not(:nth-child(4n)) {
+				.sub-item {
+					border-right: 1px solid $border-color;
+				}
+			}
+			@media #{$md} {
+				&:not(:nth-child(2n)) {
+					.sub-item {
+						border-right: 1px solid $border-color;
+					}
+				}
+				&:nth-child(2n) {
+					.sub-item {
+						border-right: none;
+					}
+				}
 			}
 			@media #{$xs} {
-				font-size: 26px;
+				&:nth-child(2n+1) {
+					.sub-item {
+						border-right: 1px solid $border-color;
+					}
+				}
+				&:nth-child(2n) {
+					.sub-item {
+						border-right: none;
+					}
+				}
+				&:nth-child(n+3) {
+					.sub-item {
+						border-top: 1px solid $border-color;
+					}
+				}
+			}
+		}
+	}
+	.sub-item{
+		padding-top: 80px;
+		padding-bottom: 80px;
+		border: none;
+		@media #{$xs} {
+			padding-top: 50px;
+			padding-bottom: 50px;
+		}
+		img {
+			width: 70px;
+			height: auto;
+			@media #{$xs} {
+				width: 60px;
+			}
+		}
+		& .title{
+			font-size: 24px;
+			padding-top: 30px;
+			padding-bottom: 12px;
+			@media #{$lg} {
+				font-size: 18px;
+			}
+			@media #{$xs} {
+				font-size: 20px;
 			}
 			@media #{$sm} {
-				font-size: 30px;
+				font-size: 22px;
 			}
 		}
 		& a{
-			height: 60px;
-			width: 60px;
+			height: 50px;
+			width: 50px;
 			text-align: center;
-			line-height: 54px;
-			border: 4px solid $border-color;
+			line-height: 44px;
+			border: 3px solid $border-color;
 			border-radius: 50%;
-			margin-top: 30px;
+			margin-top: 25px;
 			color: $heading-color;
+			font-size: 14px;
 			@include transition(0.3s);
 			&:hover{
 				background: $theme-color;
@@ -48,18 +96,24 @@
 			}
 		}
 		& p{
-			padding: 0 65px;
+			padding: 0 50px;
+			font-size: 14px;
+			line-height: 1.6;
 			@media #{$laptop} {
-				padding: 0 0;
+				padding: 0 20px;
+				font-size: 13px;
 			}
 			@media #{$lg} {
-				padding: 0 5px;
+				padding: 0 20px;
+				font-size: 13px;
 			}
 			@media #{$xs} {
-				padding: 0 25px;
+				padding: 0 20px;
+				font-size: 13px;
 			}
 			@media #{$sm} {
-				padding: 0 65px;
+				padding: 0 30px;
+				font-size: 14px;
 			}
 		}
 	}
