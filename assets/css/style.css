@@ -896,7 +896,7 @@ p {
 }
 @media (max-width: 767px) {
   .banner-area {
-    margin-top: 70px;
+    margin-top: 60px;
     height: 500px;
   }
 }
