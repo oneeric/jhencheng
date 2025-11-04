@@ -1,0 +1,708 @@
+---
+layout: null
+permalink: /
+---
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <!--====== Required meta tags ======-->
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!--====== Title ======-->
+    <title>台中商務中心-震澄玩創共享空間</title>
+
+    <!--====== Favicon Icon ======-->
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/png">
+
+    <!--====== Bootstrap css ======-->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+    <!--====== Fontawesome css ======-->
+    <link rel="stylesheet" href="assets/css/all.css">
+
+    <!--====== animate css ======-->
+    <link rel="stylesheet" href="assets/css/animate.css">
+
+    <!--====== Magnific Popup css ======-->
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+
+    <!--====== Slick css ======-->
+    <link rel="stylesheet" href="assets/css/slick.css">
+
+    <!--====== Default css ======-->
+    <link rel="stylesheet" href="assets/css/default.css">
+
+    <!--====== Style css ======-->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+
+</head>
+
+<body>
+
+    <!--====== HEADER PART START ======-->
+    <div id="header-placeholder"></div>
+    <!--====== HEADER PART ENDS ======-->
+    
+    <!--====== BANNER PART START ======-->
+       
+    <section class="banner-area d-flex align-items-center bg_cover" style="background-image: url(assets/images/banner-bg.jpg)">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-11">
+                    <div class="banner-content text-center">
+                        <span>震澄玩創共享空間</span>
+                        <h1 class="title">創業者的一站式<br>商務解決方案</h1>
+                        <ul style="gap: 20px;">
+                            <li><a class="main-btn main-btn-2 mb-20" href="contact.html">立即諮詢</a></li>
+
+                            <li><a class="main-btn mb-20" href="about.html">了解更多</a></li>
+                        </ul>
+                        <p style="margin-top:20px;color:#ffffff;max-width:880px;margin-left:auto;margin-right:auto;">為創業者提供全方位支援，從空間、登記到顧問諮詢，讓您專注於業務發展，加速企業成長。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> 
+    
+    <!--====== BANNER PART ENDS ======-->
+
+    <!--====== CORE SERVICES PART START ======-->
+      
+    <section class="sub-area">
+        <div class="container-fluid p-0">
+            <div class="row no-gutters">
+                <div class="col-lg-3 col-md-6 col-6">
+                    <div class="sub-item text-center">
+                        <img src="assets/images/icons/service-icon-02.svg" alt="登記服務">
+                        <div>
+                            <h4 class="title">登記服務</h4>
+                            <p>商業地址登記、信件代收與轉寄，協助建立正式企業形象，確保合法合規。</p>
+                        </div>
+                        <a href="services.html#registration"><i class="far fa-plus"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-6">
+                    <div class="sub-item text-center">
+                        <img src="assets/images/icons/service-icon-01.svg" alt="空間服務">
+                        <h4 class="title">空間服務</h4>
+                        <p>彈性辦公空間、會議室與倉儲選擇，滿足不同創業階段需求，創造專業工作環境。</p>
+                        <a href="services.html#space"><i class="far fa-plus"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-6">
+                    <div class="sub-item text-center">
+                        <img src="assets/images/icons/service-icon-03.svg" alt="創業顧問">
+                        <h4 class="title">創業顧問</h4>
+                        <p>專業會計、法律與商業模式諮詢，提供決策支援與規劃指導，降低創業風險。</p>
+                        <a href="services.html#consulting"><i class="far fa-plus"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-6">
+                    <div class="sub-item text-center">
+                        <img src="assets/images/icons/service-icon-04.svg" alt="活動講座">
+                        <h4 class="title">活動講座</h4>
+                        <p>主題式創業講座與交流活動，擴展人脈與專業知識，促進創業社群交流。</p>
+                        <a href="services.html#events"><i class="far fa-plus"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> 
+   
+    <!--====== CORE SERVICES PART ENDS ======-->
+
+    <!--====== OUR MISSION PART START ======-->
+      
+    <section class="our-mission-area">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="section-title text-center">
+                        <span class="wow fadeIn animated" data-wow-duration="2000ms" data-wow-delay="0ms">Our Mission</span>
+                        <h2 class="title wow fadeInUp animated" attr-text="Our Mission" data-wow-duration="1000ms" data-wow-delay="100ms">我們的使命</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="mission-item text-center">
+                        <img src="assets/images/icons/mission-icon-01.svg" style="width: 120px; margin-bottom: 20px;" alt="">
+                        
+                        <h4 class="title">全方位創業支援</h4>
+                        <p>震澄致力打造創業者一站式平台，提供從空間到顧問的完整服務，讓您專注於核心業務，無需分心於行政瑣事。</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="mission-item text-center">
+                        <img src="assets/images/icons/mission-icon-02.svg" style="width: 120px; margin-bottom: 20px;" alt="">
+                        <h4 class="title">專業資源整合</h4>
+                        <p>整合會計、法律、品牌等專業資源，為不同階段的創業者提供客製化解決方案，降低創業門檻與風險。</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="mission-item text-center">
+                        <img src="assets/images/icons/mission-icon-03.svg" style="width: 120px; margin-bottom: 20px;" alt="">
+                        <h4 class="title">創業生態系統</h4>
+                        <p>建立創業者交流平台，促進資源共享與合作機會，形成正向的創業生態系統，共同成長茁壯。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> 
+   
+    <!--====== OUR MISSION PART ENDS ======-->
+
+    <!--====== SERVICES ITEM PART START ======-->
+      
+    <section class="services-item-area section-padding">
+        <!-- 裝飾泡泡 -->
+        <div class="bubble-1"></div>
+        <div class="bubble-2"></div>
+        <div class="bubble-3"></div>
+        <div class="bubble-4"></div>
+        
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="section-title text-center">
+                        <span class="wow fadeIn animated" data-wow-duration="2000ms" data-wow-delay="0ms">SERVICES</span>
+                        <h2 class="title wow fadeInUp animated" attr-text="SERVICES" data-wow-duration="1000ms" data-wow-delay="100ms">服務項目</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-4 col-md-6 col-sm-8">
+                    <div class="services-item text-center">
+                        <div class="service-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="services-text">
+                            <h4 class="title">借址登記</h4>
+                            <p>提供合法商業登記地址，專人代收代管各類信件與包裹，即時通知重要資訊，建立專業企業形象。</p>
+                        </div>
+                        <a href="#"><i class="fas fa-plus"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-8">
+                    <div class="services-item text-center">
+                        <div class="service-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="services-text">
+                            <h4 class="title">信件轉寄／領取</h4>
+                            <p>彈性提供信件包裹轉寄至指定地址，或安排親自到場領取，即時追蹤並通知所有新進郵件狀態。</p>
+                        </div>
+                        <a href="#"><i class="fas fa-plus"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-8">
+                    <div class="services-item text-center">
+                        <div class="service-icon">
+                            <i class="fas fa-globe-americas"></i>
+                        </div>
+                        <div class="services-text">
+                            <h4 class="title">外國人來台設立公司</h4>
+                            <p>為外國投資者提供全面性公司設立支援，包含合法地址、名稱預查及登記流程指引，讓您在台創業無憂。</p>
+                        </div>
+                        <a href="#"><i class="fas fa-plus"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-8">
+                    <div class="services-item text-center">
+                        <div class="service-icon">
+                            <i class="fas fa-calculator"></i>
+                        </div>
+                        <div class="services-text">
+                            <h4 class="title">會計稅務</h4>
+                            <p>專業記帳、報稅、稅務規劃與財務分析，確保合規並優化稅務結構，提升財務效益。</p>
+                        </div>
+                        <a href="#"><i class="fas fa-plus"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-8">
+                    <div class="services-item text-center">
+                        <div class="service-icon">
+                            <i class="fas fa-gavel"></i>
+                        </div>
+                        <div class="services-text">
+                            <h4 class="title">法律諮詢</h4>
+                            <p>公司設立、股權契約撰擬與審閱，降低法律風險，保障創業者與投資人權益。</p>
+                        </div>
+                        <a href="#"><i class="fas fa-plus"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-8">
+                    <div class="services-item text-center">
+                        <div class="service-icon">
+                            <i class="fas fa-lightbulb"></i>
+                        </div>
+                        <div class="services-text">
+                            <h4 class="title">品牌定位與商業模式</h4>
+                            <p>協助釐清價值主張與目標客群，優化獲利模式，建立差異化競爭優勢。</p>
+                        </div>
+                        <a href="#"><i class="fas fa-plus"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-8">
+                    <div class="services-item text-center">
+                        <div class="service-icon">
+                            <i class="fas fa-file-alt"></i>
+                        </div>
+                        <div class="services-text">
+                            <h4 class="title">文件合規與報表分析</h4>
+                            <p>確保企業文件符合法規要求，提供財務健康度評估，預防潛在風險。</p>
+                        </div>
+                        <a href="#"><i class="fas fa-plus"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-8">
+                    <div class="services-item text-center">
+                        <div class="service-icon">
+                            <i class="fas fa-chalkboard-teacher"></i>
+                        </div>
+                        <div class="services-text">
+                            <h4 class="title">主題式創業講座</h4>
+                            <p>定期舉辦稅務、行銷、品牌等專業主題講座，分享最新趨勢與實用知識，提升創業成功率。</p>
+                        </div>
+                        <a href="#"><i class="fas fa-plus"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-8">
+                    <div class="services-item text-center">
+                        <div class="service-icon">
+                            <i class="fas fa-handshake"></i>
+                        </div>
+                        <div class="services-text">
+                            <h4 class="title">顧問與創業者媒合</h4>
+                            <p>協助創業者找到合適的專業顧問，解決特定領域問題，加速業務成長與市場拓展。</p>
+                        </div>
+                        <a href="#"><i class="fas fa-plus"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-8">
+                    <div class="services-item text-center">
+                        <div class="service-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <div class="services-text">
+                            <h4 class="title">會員互助交流聚會</h4>
+                            <p>提供輕鬆交流平台，促進會員間資源共享、經驗交流與合作機會，建立互助共榮生態圈。</p>
+                        </div>
+                        <a href="#"><i class="fas fa-plus"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> 
+   
+    <!--====== SERVICES ITEM PART ENDS ======-->
+
+    <!--====== BENEFITS PART START ======-->
+      
+    <section class="benefits-area bg_cover" style="background-image: url(assets/images/benefits-bg.webp);">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="benefits-content">
+                        <h2 class="title">立即開始您的創業旅程</h2>
+                        
+                        <div class="benefits-services">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-4">
+                                    <div class="benefit-item">
+                                        <div class="benefit-icon">
+                                            <img src="assets/images/icons/feature-icon-01.svg" alt="">
+                                        </div>
+                                        <div class="benefit-content">
+                                            <h4>實體空間</h4>
+                                            <p>靈活辦公環境，隨業務需求擴展，打造專業企業形象。</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-lg-4 col-md-4">
+                                    <div class="benefit-item">
+                                        <div class="benefit-icon">
+                                            <img src="assets/images/icons/feature-icon-02.svg" alt="">
+                                        </div>
+                                        <div class="benefit-content">
+                                            <h4>登記法規</h4>
+                                            <p>合法合規的商業登記，專業信件管理，確保行政無縫運作。</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-lg-4 col-md-4">
+                                    <div class="benefit-item">
+                                        <div class="benefit-icon">
+                                            <img src="assets/images/icons/feature-icon-03.svg" alt="">
+                                        </div>
+                                        <div class="benefit-content">
+                                            <h4>顧問知識</h4>
+                                            <p>專業諮詢支援，協助決策優化，降低創業風險。</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="benefits-buttons">
+                            <a class="main-btn" href="contact.html">預約諮詢</a>
+                            <a class="main-btn main-btn-2" href="about.html">索取資料</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> 
+   
+    <!--====== BENEFITS PART ENDS ======-->
+
+    <!--====== SHOWCASE PART START ======-->
+      
+    <section class="showcase-area section-padding">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="section-title text-center">
+                        <span class="wow fadeIn animated" data-wow-duration="2000ms" data-wow-delay="0ms">SPACE</span>
+                        <h2 class="title wow fadeInUp animated" attr-text="SPACE" data-wow-duration="1000ms" data-wow-delay="100ms">空間服務</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row no-gutters">
+                <div class="col-lg-6">
+                    <div class="showcase-thumb">
+                        <img src="assets/images/space-img-01.webp" alt="showcase">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="showcase-item">
+                        <span>空間服務</span>
+                        <h3 class="title">單人辦公室出租</h3>
+                        <p style="margin-bottom: 1em;">專屬獨立空間，含商業登記地址使用權，提供安靜高效的工作環境，打造專業企業形象。</p>
+                        <ul>
+                            <li><i class="far fa-check"></i> 專屬獨立空間</li>
+                            <li><i class="far fa-check"></i> 商業登記地址</li>
+                            <li><i class="far fa-check"></i> 高速網路</li>
+                            <li><i class="far fa-check"></i> 24小時門禁</li>
+                            <li><i class="far fa-check"></i> 信件代收服務</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row no-gutters">
+                <div class="col-lg-6 order-2 order-lg-1">
+                    <div class="showcase-item item-2">
+                        <span>空間服務</span>
+                        <h3 class="title">教室／會議室租借</h3>
+                        <p style="margin-bottom: 1em;">提供6人、16人、40人不同規模會議室，配備完善視聽設備，滿足各類會議與活動需求。</p>
+                        <ul>
+                            <li><i class="far fa-check"></i> 6人小型會議室</li>
+                            <li><i class="far fa-check"></i> 16人教室</li>
+                            <li><i class="far fa-check"></i> 40人教室</li>
+                            <li><i class="far fa-check"></i> 完善視聽設備</li>
+                            <li><i class="far fa-check"></i> 彈性租期方案</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-6 order-1 order-lg-2">
+                    <div class="showcase-thumb">
+                        <img src="assets/images/space-img-02.webp" alt="showcase">
+                    </div>
+                </div>
+            </div>
+            <div class="row no-gutters">
+                <div class="col-lg-6">
+                    <div class="showcase-thumb">
+                        <img src="assets/images/space-img-03.webp" alt="showcase">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="showcase-item item-3">
+                        <span>空間服務</span>
+                        <h3 class="title">倉儲空間</h3>
+                        <p style="margin-bottom: 1em;">適合電商創業者與需要短期商品存放的企業，提供彈性租期方案，優化庫存管理。 (規劃中)</p>
+                        <ul>
+                            <li><i class="far fa-check"></i> 彈性租期方案</li>
+                            <li><i class="far fa-check"></i> 24小時監控</li>
+                            <li><i class="far fa-check"></i> 24小時門禁系統</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 text-center mt-30">
+                    <a href="space.html" class="main-btn">瞭解更多</a>
+                </div>
+            </div>
+        </div>
+    </section> 
+    
+
+    <!--====== OUR PLACE PART START ======-->
+      
+    <section class="our-place-area d-flex justify-content-lg-end justify-content-center">
+        <div class="our-place-item">
+            <div class="our-place-content">
+                <span>震澄商務</span>
+                <h3 class="title">全方位新創孵化器</h3>
+                <div class="row plans-item-slide">
+                    <div class="col-lg-3">
+                        <div class="our-place-item text-center">
+                            <i class="fal fa-lightbulb"></i><br>
+                            <span>概念階段</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="our-place-item text-center">
+                            <i class="fal fa-rocket"></i><br>
+                            <span>執行階段</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="our-place-item text-center">
+                            <i class="fal fa-chart-line"></i><br>
+                            <span>擴展階段</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="our-place-item text-center">
+                            <i class="fal fa-globe"></i><br>
+                            <span>國際化階段</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="our-place-text text-center plans-slider">
+                    <p><strong>概念階段</strong><br>提供創業諮詢、商業模式規劃與登記地址，協助創業初期合法設立，奠定穩固基礎。</p>
+                    <p><strong>執行階段</strong><br>提供辦公空間、會計稅務服務、品牌設計與產品視覺，支援業務展開，加速市場進入。</p>
+                    <p><strong>擴展階段</strong><br>提供整合行銷、品質管理系統導入，擴大市場規模與提升營運效率，強化競爭優勢。</p>
+                    <p><strong>國際化階段</strong><br>協助ISO認證、國際法規對接，支援產品出口與國際市場拓展，實現全球化業務佈局。</p>
+                </div>
+            </div>
+        </div>
+    </section> 
+   
+    <!--====== OUR PLACE PART ENDS ======-->
+
+    <!--====== OUR MISSION PART START ======-->
+      
+    <section class="our-mission-area">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="section-title text-center">
+                        <span class="wow fadeIn animated" data-wow-duration="2000ms" data-wow-delay="0ms">Partnership Services</span>
+                        <h2 class="title wow fadeInUp animated" attr-text="PARTNERSHIP" data-wow-duration="1000ms" data-wow-delay="100ms">延伸合作服務</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <p style="margin-bottom: 30px;">
+                        震澄結合多位產業夥伴，提供創業者從 <strong>品牌建立</strong>、<strong>影像行銷</strong>到<strong>法規品質顧問</strong>等進階支援，全方位協助企業成長。
+                    </p>
+                </div>
+            </div>
+            <div class="row mt-30">
+                <div class="col-lg-3 col-md-6 mb-30">
+                    <div class="">
+                        <div class="text-center">
+                            <img src="assets/images/icons/partner-icon-01.svg" style="width: 120px; margin-bottom: 20px; border: 1px solid #2a8a7f; border-radius: 50%; padding: 5px;" alt="GCM+ 醫療行銷顧問">
+                        </div>
+                        <h4 class="title" style="margin-bottom: 10px;">GCM+ 醫療行銷顧問</h4>
+                        <p>專業醫療人員代言、法規審查、社群口碑操作與影音製作，提升醫療相關產品可信度。</p>
+                        <ul class="service-tags">
+                            <li><i class="far fa-check"></i> 專業醫療人員代言</li>
+                            <li><i class="far fa-check"></i> 法規審查</li>
+                            <li><i class="far fa-check"></i> 社群口碑操作</li>
+                            <li><i class="far fa-check"></i> 影音製作</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-30">
+                    <div class="">
+                        <div class="text-center">
+                            <img src="assets/images/icons/partner-icon-02.svg" style="width: 120px; margin-bottom: 20px; border: 1px solid #2a8a7f; border-radius: 50%; padding: 5px;" alt="Create-Studio 品牌設計">
+                        </div>
+                        <h4 class="title" style="margin-bottom: 10px;">Create-Studio 品牌設計</h4>
+                        <p>品牌識別設計、包裝印刷、網站建置與整合行銷，打造獨特品牌視覺形象與數位門面。</p>
+                        <ul class="service-tags">
+                            <li><i class="far fa-check"></i> 品牌識別設計</li>
+                            <li><i class="far fa-check"></i> 包裝印刷</li>
+                            <li><i class="far fa-check"></i> 網站建置</li>
+                            <li><i class="far fa-check"></i> 整合行銷</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-30">
+                    <div class="">
+                        <div class="text-center">
+                            <img src="assets/images/icons/partner-icon-03.svg" style="width: 120px; margin-bottom: 20px; border: 1px solid #2a8a7f; border-radius: 50%; padding: 5px;" alt="Yitian Visual 視覺攝影">
+                        </div>
+                        <h4 class="title" style="margin-bottom: 10px;">Yitian Visual 視覺攝影</h4>
+                        <p>商品形象攝影、品牌形象廣告拍攝、活動記錄與美感課程，呈現最佳視覺效果提升轉換率。</p>
+                        <ul class="service-tags">
+                            <li><i class="far fa-check"></i> 商品形象攝影</li>
+                            <li><i class="far fa-check"></i> 活動記錄</li>
+                            <li><i class="far fa-check"></i> 空拍攝影</li>
+                            <li><i class="far fa-check"></i> 品牌形象廣告拍攝</li>
+                            <li><i class="far fa-check"></i> 美感課程</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-30">
+                    <div class="">
+                        <div class="text-center">
+                            <img src="assets/images/icons/partner-icon-01.svg" style="width: 120px; margin-bottom: 20px; border: 1px solid #2a8a7f; border-radius: 50%; padding: 5px;" alt="BeRight Biotech 品質顧問">
+                        </div>
+                        <h4 class="title" style="margin-bottom: 10px;">BeRight Biotech 品質顧問</h4>
+                        <p>ISO品質管理系統導入、產品註冊輔導、ESG永續指標與合規認證，協助企業拓展國際市場。</p>
+                        <ul class="service-tags">
+                            <li><i class="far fa-check"></i> ISO品質管理系統導入</li>
+                            <li><i class="far fa-check"></i> 產品註冊輔導</li>
+                            <li><i class="far fa-check"></i> ESG永續指標</li>
+                            <li><i class="far fa-check"></i> 合規認證</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> 
+   
+    <!--====== OUR MISSION PART ENDS ======-->
+
+    <!--====== NEWS PART START ======-->
+      
+    <section class="news-area last-section">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <div class="section-title text-center">
+                        <span>最新消息</span>
+                        <h3 class="title">創業資訊與活動</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-4 col-md-7">
+                    <div class="news-item mt-30 wow fadeIn animated" data-wow-duration="1000ms" data-wow-delay="100ms">
+                        <div class="news-thumb">
+                            <img src="assets/images/news-1.jpg" alt="news">
+                        </div>
+                        <div class="news-content pt-35">
+                            <ul>
+                                <li><i class="far fa-clock"></i> 2024年1月15日</li>
+                                <li><i class="far fa-user"></i> 震澄團隊</li>
+                            </ul>
+                            <h3 class="title">2024年創業趨勢：共享經濟與數位轉型的新機遇</h3>
+                            <a href="news-details.html">閱讀更多</a>
+                            <span>創業趨勢</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-7">
+                    <div class="news-item mt-30 wow fadeIn animated" data-wow-duration="1000ms" data-wow-delay="300ms">
+                        <div class="news-thumb">
+                            <img src="assets/images/news-2.jpg" alt="news">
+                        </div>
+                        <div class="news-content pt-35">
+                            <ul>
+                                <li><i class="far fa-clock"></i> 2024年1月10日</li>
+                                <li><i class="far fa-user"></i> 震澄團隊</li>
+                            </ul>
+                            <h3 class="title">震澄空間舉辦「創業者交流會」圓滿成功</h3>
+                            <a href="news-details.html">閱讀更多</a>
+                            <span>活動報導</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-7">
+                    <div class="news-item mt-30 wow fadeIn animated" data-wow-duration="1000ms" data-wow-delay="500ms">
+                        <div class="news-thumb">
+                            <img src="assets/images/news-3.jpg" alt="news">
+                        </div>
+                        <div class="news-content pt-35">
+                            <ul>
+                                <li><i class="far fa-clock"></i> 2024年1月5日</li>
+                                <li><i class="far fa-user"></i> 震澄團隊</li>
+                            </ul>
+                            <h3 class="title">新創公司如何選擇合適的辦公空間？專家建議</h3>
+                            <a href="news-details.html">閱讀更多</a>
+                            <span>創業指南</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> 
+   
+    <!--====== NEWS PART ENDS ======-->
+
+    <!--====== FOOTER PART START ======-->
+    <div id="footer-placeholder"></div>
+    <!--====== FOOTER PART ENDS ======-->
+
+
+
+
+
+
+
+
+    <!--====== jquery js ======-->
+    <script src="assets/js/vendor/modernizr-3.6.0.min.js"></script>
+    <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
+
+    <!--====== Bootstrap js ======-->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+
+    <!--====== Slick js ======-->
+    <script src="assets/js/slick.min.js"></script>
+
+    <!--====== Isotope js ======-->
+    <script src="assets/js/isotope.pkgd.min.js"></script>
+
+    <!--====== appear js ======-->
+    <script src="assets/js/jquery.appear.min.js"></script>
+
+    <!--====== counterup js ======-->
+    <script src="assets/js/jquery.counterup.min.js"></script>
+
+    <!--====== wow js ======-->
+    <script src="assets/js/wow.min.js"></script>
+
+    <!--====== circle progress js ======-->
+    <script src="assets/js/circle-progress.min.js"></script>
+
+    <!--====== waypoints js ======-->
+    <script src="assets/js/waypoints.min.js"></script>
+
+    <!--====== Images Loaded js ======-->
+    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
+
+    <!--====== Magnific Popup js ======-->
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+
+    <!--====== Ajax Contact js ======-->
+    <script src="assets/js/ajax-contact.js"></script>
+
+    <!--====== Main js ======-->
+    <script src="assets/js/main.js"></script>
+
+    <!--====== Parallax Bubbles js ======-->
+    <script src="assets/js/parallax-bubbles.js"></script>
+
+    <!--====== Modules js ======-->
+    <script src="assets/js/modules.js"></script>
+
+</body>
+
+</html>
