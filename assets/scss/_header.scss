@@ -57,13 +57,31 @@
         & .navbar {
             position: relative;
             padding: 0 1.2em;
+            flex-wrap: wrap;
+            justify-content: center; 
+            @media #{$md} {
+                flex-wrap: nowrap !important; // md 以下改為手機版排版
+                padding: 0 0.75em;
+                justify-content: space-between;
+            }
             
             @media #{$xs} {
                 flex-wrap: nowrap !important; // 強制維持一行
                 padding: 0 0.5em;
+                justify-content: space-between;
             }
             
             & .navbar-brand {
+                @media #{$md} {
+                    max-width: 55%; // md 以下同步用手機比例
+                    flex-shrink: 1; // 允許收縮
+                    
+                    img {
+                        width: 100% !important;
+                        height: auto;
+                        max-width: 100%;
+                    }
+                }
                 @media #{$xs} {
                     max-width: 60%; // 允許 logo 縮小
                     flex-shrink: 1; // 允許收縮
@@ -155,19 +173,19 @@
                     padding: 0.5em 1em;
 
                     @media #{$lg} {
-                        margin-right: 18px;
+                        padding: 0;
                     }
 
                     & a {
                         font-size: 1.2em;
                         font-weight: 400;
-                        padding: 0 30px;
+                        padding: 0 20px;
                         color: $white;
                         text-transform: uppercase;
                         position: relative;
                         @include transition(0.3s);
                         margin: 0;
-                        line-height: 120px;
+                        line-height: 80px;
                         &::before{
                             position: absolute;
                             content: '';
@@ -191,9 +209,15 @@
                             @include transition(0.3s);
                         }
 
+                        @media only screen and (max-width: 1600px) {
+                            font-size: 1em;
+                            padding: 0 15px;
+                        }
+
                         @media #{$lg} {
-                            font-size: 15px;
-                            padding: 0 5px;
+                            font-size: 1em;
+                            padding: 0 15px;
+                            line-height: 80px;
                         }
 
                         @media #{$md} {
@@ -204,6 +228,7 @@
                             line-height: 40px;
                             color: $body-color;
                         }
+
 
                         @media #{$xs} {
                             padding: 0;
@@ -409,24 +434,15 @@
 
             & .navbar-social {
                 @media #{$md} {
-                    position: absolute;
-                    right: 90px;
-                    top: 50%;
-                    margin-right: 0;
-                    transform: translateY(-50%);
+                    display: none; // md 以下改用手機版隱藏社群按鈕
+                }
+
+                @media #{$sm} {
+                    display: none;
                 }
 
                 @media #{$xs} {
                     display: none;
-                }
-
-                @media #{$sm} {
-                    position: absolute;
-                    right: 90px;
-                    top: 50%;
-                    margin-right: 0;
-                    transform: translateY(-50%);
-                    display: block;
                 }
                 ul{
                     & li{

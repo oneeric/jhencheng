@@ -10,15 +10,14 @@
 
 .banner-area{
     height: 800px;
-    margin-top: 120px;
+    padding-top: 120px;
     position: relative;
     @media #{$md} {
-        margin-top: 70px;
 
     }
     @media #{$xs} {
-        margin-top: 60px;
-        height: 500px;
+        height: auto;
+        padding: 40vw 0 30vw;
     }
     @media #{$sm} {
         height: 700px;
